@@ -53,6 +53,21 @@ delete from Livros where IdAutor in (1);
 
 DROP TABLE Generos;
 
+SELECT * FROM Generos;
+SELECT * FROM Autores;
+SELECT * FROM Livros;
+
+-- Exer 4
+
+SELECT IdLivro , Titulo, IdAutor FROM Livros;
+
+-- Exer 5 
+
+SELECT IdLivro , Titulo , IdGenero FROM Livros;
+
+-- Exer 6 
+
+SELECT IdLivro , IdAutor , IdGenero FROM Livros;
 
 
 
